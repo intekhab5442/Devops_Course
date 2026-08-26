@@ -11,7 +11,7 @@ A Dockerfile is a text file containing instructions used to build a Docker image
 ### Basic structure
 
 ```dockerfile
-FROM <base-image>
+FROM <base-image >
 
 WORKDIR /app
 
