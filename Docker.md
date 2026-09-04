@@ -62,6 +62,24 @@ ENTRYPOINT ["python"]
 
 Defines the main executable of the container.
 
+# Whenever you receive any unfamiliar project, don't ask:
+
+"How do I Dockerize this?"
+
+Ask these questions in order:
+
+1. WHAT is it?
+       ↓
+2. WHAT does it need?
+       ↓
+3. HOW does it start?
+       ↓
+4. WHAT does it depend on?
+       ↓
+5. HOW does it communicate?
+       ↓
+6. THEN decide how to deploy it
+
 ---
 
 # 2. `.dockerignore`
